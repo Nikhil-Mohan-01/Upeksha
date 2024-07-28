@@ -12,14 +12,14 @@ html{
 }
 
 body{
-    background: beige;
-    color: black;
+    background: #174B42;
+    color: white;
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/upekshabackgroundv2.png);
+    background-image: url(images/UpekshaBgv3.png);
     background-size: cover;
     background-position: center;
 }
@@ -46,7 +46,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #174B42;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
@@ -57,7 +57,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #174B42;
+    background-color: lightgreen;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -79,5 +79,5 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span {
-    color: #174B42;
+    color: lightgreen;
 }
