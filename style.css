@@ -16,6 +16,8 @@ body{
     color: white;
 }
 
+/* Home Page */
+
 #header{
     width: 100%;
     height: 100vh;
@@ -80,4 +82,44 @@ nav ul li a:hover::after{
 
 .header-text h1 span {
     color: lightgreen;
+}
+
+/* About Page */
+
+#about{
+    padding: 80px 0;
+    color: white;
+}
+
+#about blockquote{
+    margin-top: -5%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 40%;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.about-col-2 h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.about-col-2 p{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
 }
