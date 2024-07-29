@@ -96,10 +96,12 @@ nav ul li a:hover::after{
     color: white;
 }
 
-#about blockquote{
+.about-col-1 blockquote{
     margin-top: -5%;
     margin-left: 15%;
     width: 70%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
 }
 
 .row{
@@ -243,4 +245,20 @@ nav ul li a:hover::after{
 
 .staff-slideshow-container{
     padding-top: 20px;
+}
+
+/* Contact Page */ 
+#contact h1{
+    font-size: 600;
+    background-image: url(images/banner-placeholder.jpg);
+    border-radius: 15px;
+}
+
+.contact-col-1{
+    padding: 10vh 0;
+}
+
+.contact-col-1 iframe{
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px black;
 }
