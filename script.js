@@ -40,3 +40,22 @@ function showSlides(n) {
 
     slideTimeout = setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
+
+// connect to google sheets
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbx_-qPhbgnTdTvQyEwPPUndlRSG86pjcHyswAcgwnoetqA5fQJZdMgRDV-YMJ_dIvRFag/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        }, 2000)
+        form.reset();
+    })
+    .catch(error => console.error('Error!', error.message))
+})

@@ -262,3 +262,40 @@ nav ul li a:hover::after{
     border-radius: 15px;
     box-shadow: 10px 10px 15px black;
 }
+
+.contact-col-2{
+    flex-basis: 40%;
+    padding: 10vh 0;
+    font-size: 2vw;
+}
+
+.contact-col-2 p{
+    padding-bottom: 3vh;
+}
+
+.contact-col-2 form{
+    width: 100%;
+
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: lightgreen;
+    padding: 10px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form textarea{
+    height: 10vh;
+}
+
+form .btn{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
