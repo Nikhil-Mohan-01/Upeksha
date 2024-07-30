@@ -248,7 +248,11 @@ nav ul li a:hover::after{
     padding-top: 20px;
 }
 
-/* Contact Page */ 
+/* Contact Page */
+#contact{
+    padding-top: 5vh;
+}
+
 #contact h1{
     font-size: 600;
     background-image: url(images/banner-placeholder.jpg);
@@ -301,6 +305,34 @@ form .btn{
     cursor: pointer;
     border-radius: 4px;
 }
+
+/* Donation Page */
+.don-col-1 img{
+    width: 41vw;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.don-col-2{
+    flex-basis: 40%;
+}
+
+.don-col-2 ul{
+    list-style-type: none;
+    padding-top: 15vh;
+}
+
+.don-col-2 ul li p{
+    font-size: 30px;
+    padding-bottom: 5vh;
+}
+
+.don-col-2 span{
+    color: lightgreen;
+    font-weight: bold;
+}
+
+/* Footer */
 
 #bottom{
     background-color: black;
