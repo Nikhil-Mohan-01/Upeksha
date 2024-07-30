@@ -362,3 +362,15 @@ form .btn{
     text-align: left;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-icon {
+        display: block;
+    }
+}
