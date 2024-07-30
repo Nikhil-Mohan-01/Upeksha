@@ -31,7 +31,7 @@ body{
     padding: 10px 10%;
 }
 
-nav{
+/* nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +39,21 @@ nav{
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     border-radius: 20px;
-    position: sticky; top: 0;
+    position: sticky; 
+    top: 0;
+} */
+
+nav{
+    position: fixed;
+    top: 1vh;
+    width: 80vw;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    z-index: 1000;
 }
 
 .logo{
