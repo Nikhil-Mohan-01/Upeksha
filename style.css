@@ -138,8 +138,9 @@ nav ul li a:hover::after{
     color: white;
 }
 
-#portfolio{
-    padding: 50px 0;
+.slidershow-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 /* Styles for the slider navigation buttons */
@@ -295,7 +296,23 @@ form textarea{
 }
 
 form .btn{
+    width: 100px;
     font-size: 15px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+#bottom{
+    background-color: black;
+}
+
+.copyright{
+    background-color: black;
+    height: 100px;
+}
+
+.text h1{
+    padding: 17px 10vw;
+    text-align: left;
+    vertical-align: middle;
 }
