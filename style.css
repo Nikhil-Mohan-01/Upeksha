@@ -61,7 +61,8 @@ body{
     position: fixed;
     top: 10px;
     right: 10px;
-    background-color: #333;
+    background-color: none;
+    border: 2px solid lightgreen;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -400,5 +401,42 @@ form .btn{
 
     .navbar-icon {
         display: block;
+    }
+
+    #header{
+        background-image: url(images/UpekshaPhoneBg.png);
+        text-align: center;
+    }
+
+    .about-col-2 .sub-title{
+        padding-top: 5vh;
+        font-size: 30px;
+    }
+    
+    .about-col-2 p{
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .about-col-2{
+        flex-basis: 100%;
+    }
+
+    .sub-title{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 5vh;;
+    }
+
+    .contact-col-1 iframe{
+        width: 100%;
+    }
+
+    .don-col-1 img{
+        width: 100%;
+    }
+
+    .don-col-2{
+        flex-basis: 100%;
     }
 }
