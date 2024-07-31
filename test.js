@@ -24,7 +24,7 @@ function handleScroll() {
     if (scrollTop > lastScrollTop) {
         // Scrolling down
         if (navbarVisible) {
-            navbar.style.top = '-100px';
+            navbar.style.top = '-150px';
             navbarVisible = false;
         }
     } else {
