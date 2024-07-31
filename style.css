@@ -465,4 +465,32 @@ form .btn{
     .text{
         font-size: 10px;
     }
+
+    /* Nav test for phone */
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+        height: 60vh; 
+    }
+    
+    .col-left, .col-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mid-bottom {
+        margin-top: auto; 
+        align-items: center;
+    }
+    
+    a {
+        margin: 10px 0; 
+        text-decoration: none; 
+        color: #fff; 
+        font-size: 1.2em;
+    }
+    
 }
