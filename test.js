@@ -49,4 +49,7 @@ function toggleNavbar() {
     }
 }
 
-window.addEventListener('scroll', debounce(handleScroll, 100));
+// Check if the screen width is greater than a certain size (e.g., 768px)
+if (window.matchMedia('(min-width: 601px)').matches) {
+    window.addEventListener('scroll', debounce(handleScroll, 100));
+}
