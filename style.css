@@ -350,6 +350,10 @@ form .btn{
 }
 
 /* Donation Page */
+.don-col-1{
+    padding: 10vh 0;
+}
+
 .don-col-1 img{
     width: 41vw;
     border-radius: 15px;
