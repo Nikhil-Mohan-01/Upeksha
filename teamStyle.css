@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-*{
+* {
     border: 0;
     margin: 0;
     padding: 0;
@@ -8,11 +8,11 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: #174B42;
     color: white;
 }
@@ -22,7 +22,7 @@ body{
     padding: 50px 0;
 }
 
-.sub-title{
+.sub-title {
     font-size: 60px;
     text-align: center;
 }
@@ -30,12 +30,12 @@ body{
 .team-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     margin-top: 50px;
     flex-wrap: wrap;
 }
 
-.card {
+.card-1, .card-2, .card-3 {
     border-radius: 10px;
     position: relative;
     background: #111; 
@@ -45,13 +45,25 @@ body{
     height: 300px; 
 }
 
-.card img, .card video {
+.card-1 img, .card-2 img, .card-3 img {
     width: 100%;
     height: 100%; 
     object-fit: cover;
     border-radius: 10px;
     display: block;
-    transition: transform 0.3s;
+    transition: transform 1s;
+}
+
+.card-1 {
+    transform: rotate(-3deg);
+}
+
+.card-2 {
+    transform: rotate(1deg);
+}
+
+.card-3 {
+    transform: rotate(4deg);
 }
 
 .layer {
@@ -72,12 +84,35 @@ body{
     transition: 0.3s;
 }
 
-.card:hover img, .card:hover video {
-    transform: scale(1.1);
+.card-1:hover img {
+    transform: rotate(3deg) scale(1.1);
     cursor: pointer;
 }
 
-.card:hover .layer {
+.card-2:hover img {
+    transform: rotate(-1deg) scale(1.1);
+    cursor: pointer;
+}
+
+.card-3:hover img {
+    transform: rotate(-4deg) scale(1.1);
+    cursor: pointer;
+}
+
+.card-1:hover .layer {
+    transform: rotate(3deg);
+    height: 100%;
+    cursor: pointer;
+}
+
+.card-2:hover .layer {
+    transform: rotate(-1deg);
+    height: 100%;
+    cursor: pointer;
+}
+
+.card-3:hover .layer {
+    transform: rotate(-4deg);
     height: 100%;
     cursor: pointer;
 }
