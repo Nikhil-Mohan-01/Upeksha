@@ -121,3 +121,93 @@ body {
     font-size: 16px;
     margin-bottom: 20px;
 }
+
+
+/* Card v2 */ 
+
+.card-1v2, .card-2v2, .card-3v2 {
+    border-radius: 10px;
+    position: relative;
+    background: #111; 
+    color: #fff; 
+    text-align: center;
+    width: 300px;
+    height: 300px; 
+}
+
+.card-1v2 img, .card-2v2 img, .card-3v2 img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    transition: transform 1s;
+}
+
+.card-1v2 {
+    transform: rotate(1deg);
+}
+
+.card-2v2 {
+    transform: rotate(-3deg);
+}
+
+.card-3v2 {
+    transform: rotate(-2deg);
+}
+
+.layer {
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), silver);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card-1v2:hover img {
+    transform: rotate(-1deg) scale(1.1);
+    cursor: pointer;
+}
+
+.card-2v2:hover img {
+    transform: rotate(3deg) scale(1.1);
+    cursor: pointer;
+}
+
+.card-3v2:hover img {
+    transform: rotate(2deg) scale(1.1);
+    cursor: pointer;
+}
+
+.card-1v2:hover .layer {
+    transform: rotate(-1deg);
+    height: 100%;
+    cursor: pointer;
+}
+
+.card-2v2:hover .layer {
+    transform: rotate(3deg);
+    height: 100%;
+    cursor: pointer;
+}
+
+.card-3v2:hover .layer {
+    transform: rotate(2deg);
+    height: 100%;
+    cursor: pointer;
+}
+
+.layer h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
