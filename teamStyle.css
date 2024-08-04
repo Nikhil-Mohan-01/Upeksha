@@ -27,6 +27,10 @@ body {
     text-align: center;
 }
 
+.go-back{
+    padding: 10vh 10vw;
+}
+
 .team-list {
     display: flex;
     justify-content: center;

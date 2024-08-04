@@ -223,7 +223,7 @@ nav ul li a:hover::after{
 }
 
 
-.staff-slideshow-container .numberText{
+.photos-slideshow-container .numberText{
     color: lightgreen;
     font-size: 18px;
     padding: 8px 12px;
@@ -287,7 +287,7 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
-.staff-slideshow-container{
+.photos-slideshow-container{
     padding-top: 20px;
 }
 
@@ -518,7 +518,7 @@ form .btn{
         margin: 0 auto;
     }
     
-    .staff-slideshow-container {
+    .photos-slideshow-container {
         padding-top: 20px;
     }
     
