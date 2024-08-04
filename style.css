@@ -159,6 +159,7 @@ nav ul li a:hover::after{
 
 .about-col-2{
     flex-basis: 60%;
+    padding: 30vh 0;
 }
 
 .about-col-2 h1{
