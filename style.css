@@ -299,8 +299,6 @@ nav ul li a:hover::after{
 
 #contact h1{
     font-size: 600;
-    background-image: url(images/banner-placeholder.jpg);
-    border-radius: 15px;
 }
 
 .contact-col-1{
@@ -393,12 +391,14 @@ form .btn{
 
 .copy-col-1{
     flex-basis: 65%;
+    background-color: black;
 }
 
 .copy-col-2{
     flex-basis: 35%;
     padding: 35px 0;
     align-items: left;
+    background-color: black;
 }
 
 .copy-col-2 i{
@@ -527,7 +527,7 @@ form .btn{
         margin-bottom: 20px;
     }
     
-    .staff-col-1 img {
+    .staff-col-1 video {
         width: 50%; 
         border-radius: 15px;
         margin: 0 auto;
@@ -536,5 +536,12 @@ form .btn{
     .photos-slideshow-container {
         padding-top: 20px;
     }
-    
+
+    .textSize{
+        font-size: 20px;
+    }
+
+    .copy-col-2 .fa-2xl{
+        font-size: 1em;
+    }
 }

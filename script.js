@@ -38,7 +38,7 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
 
-    slideTimeout = setTimeout(showSlides, 5000); // Change image every 5 seconds
+    slideTimeout = setTimeout(showSlides, 10000); // Change image every 5 seconds
 }
 
 // connect to google sheets
